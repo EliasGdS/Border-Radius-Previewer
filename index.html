@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Raio de Borda CSS3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Gerador de <i>border-radius</i> CSS3</h1>
+
+    <div id="app">
+        <div id="inputs">
+            <h2>Definição do <i>border-radius</i></h2>
+            <div id="bords">
+                <div id="leftBox">
+                    <p>Borda Superior Esquerda<input id="uprLeftBorder" type="number" value="0" oninput="updPreview()" onclick="select()">
+                    </p>
+                    <p>Borda Inferior Esquerda<input id="bttmLeftBorder" type="number" value="0" oninput="updPreview()" onclick="select()">
+                    </p>
+                </div>
+                <div id="rigthBox">
+                    <p>Borda Superior Direita<input id="upprRightBorder" type="number" value="0" oninput="updPreview()" onclick="select()">
+                    </p>
+                    <p>Borda Inferior Direita<input id="bttmRightBorder" type="number" value="0" oninput="updPreview()" onclick="select()">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="outputs">
+            <h2>Visualização do <i>border-radius</i></h2>
+            <div id="contentResult">
+                <p id="borderViewer"></p>
+            </div>
+            <p>Código CSS3<input id="contentRadius" type="text" readonly></p>
+            <div class="tooltip">
+                <button id="btnCopiar" type="button" value="Copiar" onmouseover="outFunc()" onclick="copy()">
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    Copiar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script lang="javascript" src="main.js"></script>
+
+</body>
+
+</html>

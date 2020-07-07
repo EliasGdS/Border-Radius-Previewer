@@ -1,0 +1,122 @@
+html{
+    background-color: rgb(12, 7, 24);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputs{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 5px;
+    
+}
+
+#app{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#bords{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+input{
+    display: block;
+    text-align: center;
+}
+
+#leftBox, #rigthBox{
+    margin: 5px;
+}
+
+#outputs{
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 35px;
+    margin: 5px;
+}
+
+#borderViewer{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-image: linear-gradient(to bottom, purple, darkblue);
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto 40px auto;
+    background-image: linear-gradient(to right, purple, darkblue);
+    border-radius: 15px;
+    width: 90%;
+}
+
+h2{
+    padding: 0;
+    margin: 0px 0px 15px 0px;
+}
+
+p{
+    padding: 0%;
+    margin: 0px 0px 15px 0px;
+}
+
+#contentRadius{
+    width: 300px;
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "" ;
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    transform: rotate(180deg);
+  }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
