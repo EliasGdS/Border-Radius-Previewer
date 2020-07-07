@@ -14,6 +14,6 @@ A propriedade border-radius pode ter vários valores alterados. Visualize a apar
 
 -   [ ] O usuário pode alterar todos os 8 valores possíveis do raio da borda para criar uma forma complexa
 
-## Link d
+## Link da lista de desafios 'app ideas'
 
 https://github.com/florinpop17/app-ideas
