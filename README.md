@@ -8,6 +8,10 @@ CodePen: https://codepen.io/eliasgds/pen/dyGBvQE
 
 ## Preview
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/67754744/88865371-1a281200-d1de-11ea-9a78-ac7cb3b3f4f1.gif">
+</p>
+
 
 ## Features
 
