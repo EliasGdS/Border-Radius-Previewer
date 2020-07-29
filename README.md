@@ -1,19 +1,21 @@
-# Border-radius Previewer
+# Border Radius Previewer
 
-**Nível:** 1-Iniciante
+Preview how CSS3 border-radius values affect an element.
 
-A propriedade border-radius pode ter vários valores alterados. Visualize a aparência da forma ao alterar esses valores.
+Done in HTML5, CSS3 and Javascript.
 
-## Exigência dos usuários
+CodePen: https://codepen.io/eliasgds/pen/dyGBvQE
 
--   [x] O usuário pode ver uma caixa que possui as propriedades de uma border-radius aplicada
--   [x] O usuário pode alterar os 4 valores do border-radius aplicados à caixa (canto superior esquerdo, canto superior direito, canto inferior esquerdo, canto inferior direito)
--   [x] O usuário pode copiar o CSS3 resultante para a área de transferência
+## Preview
 
-## Recursos bônus
 
--   [ ] O usuário pode alterar todos os 8 valores possíveis do raio da borda para criar uma forma complexa
+## Features
 
-## Link da lista de desafios 'app ideas'
+- [x] User can see a box which has a border-radius property applied to it.
+- [x] User can change the 4 border-radius values that are applied to the box (top-left, top-right, bottom-left, bottom-right).
+- [x] User can copy the resulting CSS to the clipboard.
 
-https://github.com/florinpop17/app-ideas
+# Bonus features
+
+- [ ] User can change all 8 possible values of the border-radius in order to create a complex shape
+
